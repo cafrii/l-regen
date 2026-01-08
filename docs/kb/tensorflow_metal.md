@@ -11,7 +11,11 @@ mac 기기에서 GPU 가속을 위해 tensorflow-metal 설치 후 tensorflow 임
 metal 과 동작 검증이 된 tensorflow 구 버전을 설치해야 함.
 
 ```
+# notebook cell 에서
 %pip install tensorflow==2.16.2 tensorflow-metal==1.2.0
+
+# 또는 터미널에서 
+uv pip install tensorflow==2.16.2 tensorflow-metal==1.2.0
 ```
 
 
